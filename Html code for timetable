@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timetable</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			text-align: center;
+			padding: 10px;
+			border: 1px solid black;
+		}
+		th {
+			background-color: lightgray;
+		}
+	</style>
+</head>
+<body>
+	<h1>Timetable</h1>
+	<table>
+		<tr>
+			<th></th>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+		</tr>
+		<tr>
+			<th>9:00-10:00</th>
+			<td>PnS</td>
+			<td>EG</td>
+			<td>ES</td>
+			<td>Thermo</td>
+			<td>Math-2</td>
+		</tr>
+		<tr>
+			<th>10:00-11:00</th>
+			<td>ES</td>
+			<td></td>
+			<td></td>
+			<td>Phy Lab</td>
+			<td>Chem Lab</td>
+		</tr>
+		<tr>
+			<th>11:00-12:00</th>
+			<td></td>
+			<td>Thermo</td>
+			<td>Math-2</td>
+			<td>Phy Lab</td>
+			<td>Chem Lab</td>
+		</tr>
+		<tr>
+			<th>12:00-1:00</th>
+			<td></td>
+			<td>Math-2</td>
+			<td>ES</td>
+			<td>PnS</td>
+			<td>Thermo</td>
+		</tr>
+	</table>
+</body>
+</html>
